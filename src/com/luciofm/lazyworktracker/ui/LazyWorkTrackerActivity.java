@@ -1,9 +1,11 @@
-package com.luciofm.lazyworktracker;
+package com.luciofm.lazyworktracker.ui;
 
-import android.app.Activity;
 import android.os.Bundle;
 
-public class LazyWorkTrackerActivity extends Activity {
+import com.luciofm.lazyworktracker.R;
+import com.luciofm.lazyworktracker.actionbarcompat.ActionBarActivity;
+
+public class LazyWorkTrackerActivity extends ActionBarActivity {
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
